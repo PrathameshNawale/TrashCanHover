@@ -1,0 +1,74 @@
+body{
+    background-color: gray;
+}
+.icon{
+    background: #eee;
+    margin: 20% auto 5%;
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border-radius: 10.5px;
+    transition: box-shadow 0.2s ease;
+}
+.icon:hover{
+    box-shadow: 0 0 10px rgba(10, 10, 10, .5);
+}
+.lid{
+    position: absolute;
+    bottom: 84px;
+    left: 21px;
+    width: 98px;
+    height: 14px;
+}
+
+.lidcap{
+    position: absolute;
+    bottom: 96.6px;
+    left: 63px;
+    height: 7px;
+    width: 15px;
+}
+.lid,
+.lidcap{
+    border-top-left-radius: 23.8px;
+    border-top-right-radius: 23.8px;
+    background: #111;
+    transition: transform 0.2s linear, margin 0.2s linear;
+}
+.icon:hover .lid,
+.icon:hover .lidcap {
+    transform: rotateX(14deg);
+    margin-bottom: 15.5px;
+}
+.bin{
+    position: absolute;
+    bottom: 0;
+    left: 28px;
+    width: 70px;
+    border-top: 84px solid #111;
+    border-left: 7px solid transparent;
+    border-right:7px solid transparent;
+}
+.bin .c{
+    position: absolute;
+    border-radius: 0px;
+    width: 5px;
+    background-color: #fff;
+    height: 55px;
+    bottom: 15px;
+}
+.c.cut1{
+    left: 44px;
+    transform: rotate(5deg);
+}
+.c.cut2{
+    right: 44px;
+    transform: rotate(-5deg);
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 0 1px 1px #fff;
+    color: #111;
+    text-transform: uppercase;
+}
