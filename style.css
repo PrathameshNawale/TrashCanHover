@@ -2,7 +2,6 @@ body{
     background-color: gray;
 }
 .icon{
-    background: #eee;
     margin: 20% auto 5%;
     position: relative;
     width: 140px;
@@ -41,6 +40,7 @@ body{
     margin-bottom: 15.5px;
 }
 .bin{
+    background-color: yellow;
     position: absolute;
     bottom: 0;
     left: 28px;
